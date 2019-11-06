@@ -1,0 +1,91 @@
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: Nexa;
+  src: url('../fonts/nexa_bold.otf');
+}
+
+@font-face {
+  font-family: NexaLight;
+  src: url('../fonts/nexa_light.otf');
+}
+
+h1{
+  font-family: Nexa;
+  text-align: center;
+  margin-top: 50%;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+p{
+  font-family: NexaLight;
+  text-align: center;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+.btnStart{
+  margin: 5% auto;
+  width: 60%;
+  padding: 15px;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  background-image: linear-gradient(to right, #18c76c, #4ccf8c, #5dd899);
+  color: white;
+  font-family: NexaLight;
+  text-transform: uppercase;
+}
+
+button{
+  font-weight: bold;
+}
+
+.btnInfo{
+  margin: 0 auto;
+  width: 60%;
+  padding: 15px;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  background-image: linear-gradient(to right, #18c76c, #4ccf8c, #5dd899);
+  color: white;
+  font-family: NexaLight;
+  text-transform: uppercase;
+}
+
+.fix{
+  position:absolute;
+  bottom:0px;
+}
+
+.tituloIntegrantes{
+  font-family: NexaLight;
+  font-weight: bold;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  visibility: hidden;
+}
+
+.sairModal{
+  margin: 0 auto;
+  width: 60%;
+  padding: 15px;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  background-image: linear-gradient(to right, #18c76c, #4ccf8c, #5dd899);
+  color: white;
+  font-family: NexaLight;
+  text-transform: uppercase;
+}
